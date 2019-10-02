@@ -10,8 +10,8 @@ LaneNet backend branch which is mainly used for binary and instance segmentation
 """
 import tensorflow as tf
 
-from config import global_config
-from lanenet_model import lanenet_discriminative_loss
+from lanenet.config import global_config
+from lanenet.model import lanenet_discriminative_loss
 from semantic_segmentation_zoo import cnn_basenet
 
 CFG = global_config.cfg

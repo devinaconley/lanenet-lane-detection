@@ -12,7 +12,7 @@ import collections
 
 import tensorflow as tf
 
-from config import global_config
+from lanenet.config import global_config
 from semantic_segmentation_zoo import cnn_basenet
 
 CFG = global_config.cfg

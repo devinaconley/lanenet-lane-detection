@@ -17,8 +17,8 @@ import random
 import glog as log
 import tensorflow as tf
 
-from config import global_config
-from data_provider import tf_io_pipline_tools
+from lanenet.config import global_config
+from lanenet.data_provider import tf_io_pipline_tools
 
 CFG = global_config.cfg
 
