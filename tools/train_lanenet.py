@@ -19,9 +19,9 @@ import glog as log
 import numpy as np
 import tensorflow as tf
 
-from config import global_config
-from data_provider import lanenet_data_feed_pipline
-from lanenet_model import lanenet
+from lanenet.config import global_config
+from lanenet.data_provider import lanenet_data_feed_pipline
+from lanenet.model import lanenet
 from tools import evaluate_model_utils
 
 CFG = global_config.cfg

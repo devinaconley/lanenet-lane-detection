@@ -20,9 +20,9 @@ import numpy as np
 import tensorflow as tf
 import tqdm
 
-from config import global_config
-from lanenet_model import lanenet
-from lanenet_model import lanenet_postprocess
+from lanenet.config import global_config
+from lanenet.model import lanenet
+from lanenet.model import lanenet_postprocess
 
 CFG = global_config.cfg
 
